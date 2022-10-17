@@ -18,7 +18,7 @@
         class="q-ml-sm q-my-md left-menu__item"
         tag="a"
         target="_blank"
-        href="link"
+        href="#"
       >
         <q-item-section avatar>
           <img avatar :src="require(`../assets/icons/LeftMenu/${menu}.svg`)" />
