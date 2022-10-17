@@ -4,16 +4,16 @@
       dense
       v-model="activeTab"
       no-caps
-      class="text-grey-8 q-pa-sm"
-      active-color="green-4"
+      class="text-grey-8"
+      active-color="light-green-14"
       indicator-color="white"
     >
       <q-tab v-for="(menu, i) in menuItems" :key="i">
-        <q-tab :name="menu">
+        <q-tab class="q-pa-none" :name="menu">
           <img
             avatar
             :src="require(`../assets/icons/LeftMenu/${menu}.svg`)"
-            style="background: #ccc"
+            style="background: #eee"
           />
           <span class="text-bold">
             {{ menu }}

@@ -11,7 +11,7 @@
           avatar
           :src="
             require(`../../../assets/icons/CardActions/${action
-              .replace(/\s/g, '-')
+              .replace(/[\s\/]/g, '-')
               .toLowerCase()}.svg`)
           "
         /><br />
@@ -27,9 +27,8 @@ import { actions } from "../constants";
 
 export default defineComponent({
   name: "CardActions",
-  setup(props) {
+  setup() {
     return {
-      props,
       actions,
     };
   },
@@ -43,5 +42,8 @@ export default defineComponent({
   border-radius: 16px;
   font-size: 13px;
   color: #0c365a;
+}
+.action {
+  overflow-wrap: break-word;
 }
 </style>

@@ -48,7 +48,7 @@
       </q-tab-panels>
     </div>
     <!-- Mobile -->
-    <div class="q-gutter-y-md q-pa-lg q-pt-md lt-sm mobile-container">
+    <div class="q-gutter-y-sm q-pa-lg q-pt-md lt-sm mobile-container">
       <div class="row items-end text-white">
         <div class="col">Available balance</div>
         <div class="col">

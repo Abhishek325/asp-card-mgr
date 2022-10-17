@@ -1,4 +1,4 @@
-# Quasar App (asp-cards-module)
+# asp-cards-module
 
 A Quasar Project
 
@@ -8,7 +8,12 @@ yarn
 # or
 npm install
 ```
-### Install quasar-cli to run below commands
+
+## Install quasar-cli to run below commands
+```
+npm i -g @quasar/cli
+```
+
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev

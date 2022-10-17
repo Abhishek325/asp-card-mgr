@@ -51,7 +51,7 @@
           <div class="text-h6">Cannot cancel card</div>
         </q-card-section>
         <q-card-section class="q-pt-none">
-          You cannot cancel any card as this is the only card linked to your
+          You cannot cancel this card as this is the only card linked to your
           account.
         </q-card-section>
         <q-card-actions align="right" class="bg-white text-teal">
