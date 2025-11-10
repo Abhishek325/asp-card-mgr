@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider quasar dev",
     "build": "NODE_OPTIONS=--openssl-legacy-provider quasar build",
+    "deploy": "gh-pages -d dist/spa",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
@@ -18,7 +19,8 @@
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
-    "@types/node": "^12.20.21"
+    "@types/node": "^12.20.21",
+    "gh-pages": "^6.3.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
