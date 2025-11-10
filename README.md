@@ -1,29 +1,40 @@
 # asp-cards-module
 
-A Quasar Project
+A **Quasar Framework** project — take-home assignment for **Aspire**.
 
-## Install the dependencies
+---
+
+## 🧭 Project Description
+
+This project is part of a **frontend take-home assignment** from **Aspire**.  
+The goal is to demonstrate:
+
+- How to **break down a user interface** into modular, reusable **Vue components**  
+- How these components **interact** with each other using props, events, and shared state  
+- How to structure a **clean, maintainable Quasar project** that follows best practices  
+
+The app uses the **Quasar Framework (v1)** with **Vue 2**, showcasing responsive design, smooth interactions, and organized component architecture.
+
+---
+
+## 🧩 Requirements
+
+- **Node.js**: `v16.x` recommended  
+  (If using Node ≥ 17, see the *Note* below)  
+- **npm** ≥ 6.13.4 or **yarn** ≥ 1.21.1  
+
+---
+
+## 🚀 Install dependencies
+
 ```bash
-yarn
-# or
+# using npm
 npm install
+
+# or using yarn
+yarn
 ```
 
-## Install quasar-cli to run below commands
-```
-npm i -g @quasar/cli
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## 💻 Run the app
 ```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+npm run dev
